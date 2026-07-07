@@ -1,19 +1,15 @@
 # ComputeImpact
-ComputeImpact is an open-source toolkit for analyzing the environmental and operational impact of software systems, inclduing codebases, repositories, and cloud infrastructure. It provides data-driven insights into efficiency, resource usage, and environmental footprint to help developers build more responsible, scalable and cost-effective systems. 
-
-
-## Why ComputeImpact? 
-Modern software systems consume compute in ways that aren't always visible to developers. Inefficient code, misconfigured cloud resources, and heavy CI/CD pipelines all contribute to unneccesary resourse usage. 
+ComputeImpact is an open-source toolkit for analyzing the environmental and operational impact of software systems, inclduing codebases, repositories, and cloud infrastructure. Modern software systems consume compute in ways that aren't always visible to developers. Inefficient code, misconfigured cloud resources, and heavy CI/CD pipelines all contribute to unneccesary resourse usage. ComputeImpact provides data-driven insights into efficiency, resource usage, and environmental footprint to help developers build more responsible, scalable and cost-effective systems. This project focuses on **engineering clarity**, not marketing language - giving developers actionable insights without greenwashing or moralizing. 
 
 ### ComputeImpact helps teams:
 - Understand how their code and infrastructure consume compute
 - Identify inefficiencies across repos, pipelines, and cloud setups
 - Estimate environmental and opertaional impact
+- Reduce unnecessary recourse usage
 - Help developers make informed decisions that reduce cost, waste, and compute
-- Build systems that scale responsibly
+- Build systems that are efficient, scale responsibly, and are easier to maintain
 
-This project focuses on **engineering clarity**, not marketing language - giving developers actionable insights without greenwashing or moralizing. 
-
+ComputeImpact is created for developers, DevOps teams, and cloud engineers who want visibility into how their systems behave. ComputeImpact is about **clarity, efficiency, and responsible engineering** all in once place.
 
 ## Core Features (Planned)
 ### Repository Analysis
@@ -41,6 +37,7 @@ This project focuses on **engineering clarity**, not marketing language - giving
 - Exportable reports
 
 ## Project Structure (Early Stage)
+```
 compute-impact/
 │
 ├── backend/          # Node.js API (analysis engine)
@@ -49,5 +46,37 @@ compute-impact/
 ├── LICENSE           # Apache 2.0
 ├── .gitignore        # Node template
 └── README.md
+```
+This structure will evolve as the project grows and those changes will be reflected here
 
-This structure will evolve as the project grows
+## Roadmap
+### Phase 1: Foundation
+- Setup backend  & frontend scaffolding
+- Build basic repo scanning
+- Add simple compute estimation models
+  
+### Phase 2: Cloud & Infrastructure
+- Integrate AWS/GCP/Azure SDKs
+- Add resource usage mapping
+- Build cloud impact calculators
+
+### Phase 3: Dashboard
+- Create interactive UI
+- Add charts, reports, and insights
+- Support multi-repo analysis
+
+### Phase 4: Developer Tools
+- VSCode extension
+- GitHub Action integration
+- CLI tool for local analysis
+
+### Phase 5: Advanced Modeling
+- Machine-learning based estimations
+- Predictive impact modeling
+- Team-level optimizatoin suggestions
+
+## Contributing
+Contributions are welcome! Whether you want to fix a bug, add some features, improve documentation, or help shape the roadmap, your input matters!
+
+## License
+This project is licensed under the Apache 2.0 License, chosen for long-term clarity and enterprise-friendly adoption. See the ```LICENSE``` file for details. 
