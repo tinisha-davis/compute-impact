@@ -11,6 +11,14 @@ ComputeImpact is an open-source toolkit for analyzing the environmental and oper
 
 ComputeImpact is created for developers, DevOps teams, and cloud engineers who want visibility into how their systems behave. ComputeImpact is about **clarity, efficiency, and responsible engineering** all in once place.
 
+## Table of Contents
+- [About ComputeImpact](#about-computeimpact)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+
 ## Core Features (Planned)
 ### Repository Analysis
 - File structure insights
