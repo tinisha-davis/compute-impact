@@ -56,4 +56,4 @@ See [`docs/ROADMAP.md`](docs/ROADMAP.md) for the full plan.
 Contributions are welcome! Whether you want to fix a bug, add some features, improve documentation, or help shape the roadmap, your input matters! Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting a pull request.
 
 ## License
-This project is licensed under the Apache 2.0 License, chosen for long-term clarity and enterprise-friendly adoption. See the ```LICENSE``` file for details. 
+This project is licensed under the Apache 2.0 License, chosen for long-term clarity and enterprise-friendly adoption. See the [`LICENSE`](LICENSE) file for details. 
