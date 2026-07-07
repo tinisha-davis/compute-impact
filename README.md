@@ -47,36 +47,13 @@ compute-impact/
 ├── .gitignore        # Node template
 └── README.md
 ```
-This structure will evolve as the project grows and those changes will be reflected here
+This structure will evolve as the project grows and those changes will be reflected here.
 
 ## Roadmap
-### Phase 1: Foundation
-- Setup backend  & frontend scaffolding
-- Build basic repo scanning
-- Add simple compute estimation models
-  
-### Phase 2: Cloud & Infrastructure
-- Integrate AWS/GCP/Azure SDKs
-- Add resource usage mapping
-- Build cloud impact calculators
-
-### Phase 3: Dashboard
-- Create interactive UI
-- Add charts, reports, and insights
-- Support multi-repo analysis
-
-### Phase 4: Developer Tools
-- VSCode extension
-- GitHub Action integration
-- CLI tool for local analysis
-
-### Phase 5: Advanced Modeling
-- Machine-learning based estimations
-- Predictive impact modeling
-- Team-level optimizatoin suggestions
+See [`docs/ROADMAP.md`](docs/ROADMAP.md) for the full plan.
 
 ## Contributing
-Contributions are welcome! Whether you want to fix a bug, add some features, improve documentation, or help shape the roadmap, your input matters!
+Contributions are welcome! Whether you want to fix a bug, add some features, improve documentation, or help shape the roadmap, your input matters! Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting a pull request.
 
 ## License
 This project is licensed under the Apache 2.0 License, chosen for long-term clarity and enterprise-friendly adoption. See the ```LICENSE``` file for details. 
